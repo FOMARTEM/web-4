@@ -5,7 +5,7 @@ let resultElement = document.querySelector(".result");
 
 btnElement.addEventListener("click", function() {
     if (firstNameElement.value && secondNameElement.value) {
-        resultElement.textContent = `Ответ: Здравствуйте, ${firstNameElement.value} ${mySenameElement.value}!`
+        resultElement.textContent = `Ответ: Здравствуйте, ${firstNameElement.value} ${secondNameElement.value}!`
     } else {
         resultElement.textContent = `Ответ: Не все поля заполнены`;
     }
